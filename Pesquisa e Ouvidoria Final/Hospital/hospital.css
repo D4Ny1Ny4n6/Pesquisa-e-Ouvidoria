@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#cadastro {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+#cadastro h2 {
+  color: #1075b8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#cadastro-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#cadastro-form input[type="email"],
+#cadastro-form input[type="text"],
+#cadastro-form input[type="tel"],
+#cadastro-form input[type="password"],
+#cadastro-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#cadastro-form select {
+  appearance: none; /* Remove o estilo padrão do seletor */
+  -webkit-appearance: none; /* Para navegadores baseados em WebKit */
+  -moz-appearance: none; /* Para navegadores baseados em Gecko */
+  background: url("arrow-down.png") no-repeat right center; /* Adiciona uma seta personalizada */
+}
+
+#cadastro-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #1075b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cadastro-form button[type="submit"]:hover {
+  background-color: #0d5699;
+}

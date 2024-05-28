@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações</title>
+    <link rel="stylesheet" href="avaliacao.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <h1 class="header">Pesquisa e Ouvidoria</h1>
+        </div>
+        <div class="separator"></div>
+        <div class="form-container">
+            <h2>Pesquisa e Ouvidoria</h2>
+            <div class="input-container">
+                <label for="nome">Nome da Clínica/Hospital:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome da clínica/hospital...">
+            </div>
+            <div class="rating-container">
+                <label for="atendimento">Como foi seu atendimento na recepção?</label>
+                <div class="rating">
+                    <input type="radio" id="atendimento-1" name="atendimento" value="1">
+                    <label for="atendimento-1">★</label>
+                    <input type="radio" id="atendimento-2" name="atendimento" value="2">
+                    <label for="atendimento-2">★</label>
+                    <input type="radio" id="atendimento-3" name="atendimento" value="3">
+                    <label for="atendimento-3">★</label>
+                    <input type="radio" id="atendimento-4" name="atendimento" value="4">
+                    <label for="atendimento-4">★</label>
+                    <input type="radio" id="atendimento-5" name="atendimento" value="5">
+                    <label for="atendimento-5">★</label>
+                </div>
+            </div>
+            <div class="rating-container">
+                <label for="medico">O médico atendeu bem?</label>
+                <div class="rating">
+                    <input type="radio" id="medico-1" name="medico" value="1">
+                    <label for="medico-1">★</label>
+                    <input type="radio" id="medico-2" name="medico" value="2">
+                    <label for="medico-2">★</label>
+                    <input type="radio" id="medico-3" name="medico" value="3">
+                    <label for="medico-3">★</label>
+                    <input type="radio" id="medico-4" name="medico" value="4">
+                    <label for="medico-4">★</label>
+                    <input type="radio" id="medico-5" name="medico" value="5">
+                    <label for="medico-5">★</label>
+                </div>
+            </div>
+            <div class="rating-container">
+                <label for="ambiente">O ambiente está limpo?</label>
+                <div class="rating">
+                    <input type="radio" id="ambiente-1" name="ambiente" value="1">
+                    <label for="ambiente-1">★</label>
+                    <input type="radio" id="ambiente-2" name="ambiente" value="2">
+                    <label for="ambiente-2">★</label>
+                    <input type="radio" id="ambiente-3" name="ambiente" value="3">
+                    <label for="ambiente-3">★</label>
+                    <input type="radio" id="ambiente-4" name="ambiente" value="4">
+                    <label for="ambiente-4">★</label>
+                    <input type="radio" id="ambiente-5" name="ambiente" value="5">
+                    <label for="ambiente-5">★</label>
+                </div>
+            </div>
+            <div class="input-container">
+                <label for="erro">O que você identificou de errado?</label>
+                <textarea id="erro" name="erro" rows="4" placeholder="Digite aqui..."></textarea>
+            </div>
+            <button class="continuar-btn">Continuar</button>
+        </div>
+    </div>
+
+    <script src="avaliacao.js"></script>
+</body>
+</html>
